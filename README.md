@@ -14,4 +14,4 @@ The code exists as a node application
 
 ## Running
 
-`node ./src/app.js`
+`node ./app.js`
