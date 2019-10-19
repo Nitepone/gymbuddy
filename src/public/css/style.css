@@ -6,7 +6,53 @@
  */
 
 body {
+  margin: 0;
 	background: white;
 	color: #444;
   font-family: "sans-serif";
 }
+
+.page-header {
+  width: 100%;
+  color: white;
+  background: #404040;
+}
+
+.header-button {
+  display: inline-block;
+  background: white;
+  padding: .75em;
+  margin: .75em;
+  border-radius:.25em;
+}
+
+.page-content {
+  padding-top: 4em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.home-day-selector {
+  font-size: 36px;
+  font-weight: bold;
+  display: table;
+  margin: auto;
+}
+
+.home-workout-todo {
+  padding-top:1em;
+  width:40%;
+  margin:auto;
+}
+
+.workout-todo-item {
+  margin-top:1em;
+  margin-bottom:1em;
+  padding:.25em;
+  background: springgreen;
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  border-radius:.25em;
+}
+
