@@ -4,13 +4,14 @@
 <body>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<div class="page-header">
-		<div class="header-button"><a href="/settings">Settings</a></div>
-		<div class="header-button"><a href="#">Schedule</a></div>
+		<a href="/settings"><div class="header-button">Settings</div></a>
+		<a href="#"><div class="header-button">Schedule</div></a>
 	</div>
 	<div class="page-content">
 		<div class="home-day-selector">SMTWRFS</div>
 		<div class="home-workout-todo">
 
+			<a href="/workout">
 			<div class="workout-todo-item">
 				<div class="workout-todo-header">
 					Monday Workout
@@ -22,9 +23,11 @@
 					</ul>
 				</div>
 			</div>
+			</a>
 
+			<a href="/workout">
 			<div class="workout-todo-item">
-				<div class="workout-todo-header">
+				<div onclick="/workout" class="workout-todo-header">
 					Thursday Workout
 				</div>
 				<div class="workout-todo-body">
@@ -34,6 +37,7 @@
 					</ul>
 				</div>
 			</div>
+			</a>
 
 		<div>
 	</div>
