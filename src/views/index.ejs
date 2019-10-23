@@ -1,44 +1,37 @@
-<head>
-	<title>Gym Buddy</title>
-</head>
-<body>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<div class="page-header">
-		<a href="/settings"><div class="header-button">Settings</div></a>
-		<a href="#"><div class="header-button">Schedule</div></a>
-	</div>
-	<div class="page-content">
-		<div class="home-day-selector">SMTWRFS</div>
-		<div class="home-workout-todo">
+<% include includes/header.ejs %>
+<% include includes/nav-header-main.ejs %>
+<div class="page-content">
+	<div class="home-day-selector">SMTWRFS</div>
+	<div class="home-workout-todo">
 
-			<a href="/workout">
-			<div class="workout-todo-item">
-				<div class="workout-todo-header">
-					Monday Workout
-				</div>
-				<div class="workout-todo-body">
-					<ul>
-						<li>Exercise 1</li>
-						<li>Exercise 2</li>
-					</ul>
-				</div>
+		<a href="/workout">
+		<div class="workout-todo-item">
+			<div class="workout-todo-header">
+				Monday Workout
 			</div>
-			</a>
-
-			<a href="/workout">
-			<div class="workout-todo-item">
-				<div onclick="/workout" class="workout-todo-header">
-					Thursday Workout
-				</div>
-				<div class="workout-todo-body">
-					<ul>
-						<li>Exercise 1</li>
-						<li>Exercise 2</li>
-					</ul>
-				</div>
+			<div class="workout-todo-body">
+				<ul>
+					<li>Exercise 1</li>
+					<li>Exercise 2</li>
+				</ul>
 			</div>
-			</a>
+		</div>
+		</a>
 
-		<div>
-	</div>
-</body>
+		<a href="/workout">
+		<div class="workout-todo-item">
+			<div onclick="/workout" class="workout-todo-header">
+				Thursday Workout
+			</div>
+			<div class="workout-todo-body">
+				<ul>
+					<li>Exercise 1</li>
+					<li>Exercise 2</li>
+				</ul>
+			</div>
+		</div>
+		</a>
+
+	<div>
+</div>
+<% include includes/footer.ejs %>
