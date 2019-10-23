@@ -33,27 +33,36 @@ a {
 }
 
 .page-content {
+  width:500px;
   padding-top: 4em;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
 }
 
 .todo-item {
   text-decoration: none;
   margin-top:1em;
-  margin-bottom:1em;
+  margin-bottom:2em;
+  /*
   padding:.25em;
   border-style: solid;
   border-width: 2px;
+  */
   border-radius:.25em;
 }
 
 .todo-header {
-
+  font-size: 24px;
+  font-weight: bold;
+  padding: .5em;
+  padding-bottom: .25em;
+  border-radius: .5em .5em 0 0;
 }
 
 .todo-body {
-
+  font-size: 18px;
+  padding: .25em;
+  padding-top: 0;
+  border-radius: 0 0 .5em .5em;
 }
 
 .page-footer {
@@ -65,23 +74,44 @@ a {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .page-content {
+    width:auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 
 
 /* /index specific */
+/* eef8ff
+ * 829399
+ * 545f66
+ */
+
 
 .home-workout-todo {
   padding-top:1em;
-  width:40%;
   margin:auto;
 }
 
 .workout-todo-item {
 	color: #444;
-  background: springgreen;
-  border-color: green;
 }
 
+.workout-todo-header {
+	color: #fff;
+  background: #829399;
+}
 
+.workout-todo-body {
+	color: #444;
+  background: #eef8ff;
+  border: 2px;
+  border-color: #829399;
+  border-style: solid;
+}
 
 /* /workout specific */
 
