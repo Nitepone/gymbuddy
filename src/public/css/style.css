@@ -47,7 +47,22 @@ a {
   border-style: solid;
   border-width: 2px;
   */
-  border-radius:.25em;
+  border-radius:.5em;
+}
+
+.todo-button-region {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top:1em;
+  margin-bottom:2em;
+}
+
+.todo-button {
+  margin: .5em;
+  border-radius:.5em;
+  padding: .5em;
+  display: inline-block;
 }
 
 .todo-header {
@@ -90,6 +105,12 @@ a {
  * 545f66
  */
 
+.home-day-selector {
+  font-size: 36px;
+  font-weight: bold;
+  display: table;
+  margin: auto;
+}
 
 .home-workout-todo {
   padding-top:1em;
@@ -115,13 +136,6 @@ a {
 
 /* /workout specific */
 
-.home-day-selector {
-  font-size: 36px;
-  font-weight: bold;
-  display: table;
-  margin: auto;
-}
-
 .workout-title {
   font-size: 36px;
   font-weight: bold;
@@ -131,14 +145,25 @@ a {
 
 .workout-exercise-todo {
   padding-top:1em;
-  width:40%;
   margin:auto;
 }
 
 .exercise-todo-item {
+	color: #fff;
+  background: #8db580;
+}
+
+.exercise-todo-header {
+	color: #fff;
+  background: #8db580;
+}
+
+.exercise-todo-body {
 	color: #444;
-  background: lightblue;
-  border-color: navy;
+  background: #f1f7ee;
+  border: 2px;
+  border-color: #8db580;
+  border-style: solid;
 }
 
 
@@ -160,7 +185,6 @@ a {
 
 .exercise-attribute-todo {
   padding-top:1em;
-  width:40%;
   margin:auto;
 }
 
@@ -176,4 +200,44 @@ input {
 .attribute-todo-body {
   display: inline-block;
   width:20%;
+}
+
+/* /settings specific */
+.settings-title {
+  font-size: 36px;
+  font-weight: bold;
+  display: table;
+  margin: auto;
+}
+
+.settings-list {
+  padding:1em;
+  margin:auto;
+}
+
+.setting-item {
+  display: flex;
+  padding:.5em;
+  padding-left:1em;
+  padding-right:1em;
+  border-radius:.75em;
+  border-width: thin;
+  border: solid;
+  width: 100%;
+  margin: .5em;
+}
+
+.setting-name {
+  font-size: 24px;
+  display: inline-block;
+  margin-right:auto;
+
+}
+
+.setting-value {
+  font-size: 24px;
+  color: #666;
+  justify-content: flex-end;
+  display: inline-block;
+  width: 30%;
 }
