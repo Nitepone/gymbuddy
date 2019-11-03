@@ -15,3 +15,5 @@ The code exists as a node application
 ## Running
 
 `node ./app.js`
+
+`npm start`
