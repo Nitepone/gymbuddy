@@ -222,7 +222,7 @@ input {
   padding-right:1em;
   border-radius:.75em;
   border-width: thin;
-  border: solid;
+  border-style: solid;
   width: 100%;
   margin: .5em;
 }
