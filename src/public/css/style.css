@@ -17,9 +17,17 @@ a {
 }
 
 .page-header {
+  box-sizing: border-box;
   width: 100%;
+  padding-left: calc(50% - 350px);
+  padding-right: calc(50% - 350px);
+  display: flex;
   color: white;
   background: #404040;
+}
+
+.flex-push {
+  margin-left: auto;
 }
 
 .header-button {
@@ -33,7 +41,7 @@ a {
 }
 
 .page-content {
-  width:500px;
+  width: 500px;
   padding-top: 4em;
   margin: auto;
 }
@@ -89,9 +97,16 @@ a {
   text-align: center;
 }
 
+@media (max-width: 750px) {
+  .page-header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 @media (max-width: 600px) {
   .page-content {
-    width:auto;
+    width: auto;
     margin-left: 50px;
     margin-right: 50px;
   }
