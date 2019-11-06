@@ -118,7 +118,8 @@ a {
 }
 
 .workout-todo-item {
-	color: #444;
+	color: #fff;
+  background: #829399;
 }
 
 .workout-todo-header {
