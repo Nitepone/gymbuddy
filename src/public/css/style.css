@@ -296,6 +296,11 @@ input {
 	font-weight: bold;
 	display: table;
 	margin: auto;
+	margin-top: 1em;
+}
+
+.settings-title:first-of-type {
+	margin-top: 0;
 }
 
 .settings-list {
@@ -309,9 +314,8 @@ input {
 	padding-left:1em;
 	padding-right:1em;
 	border-radius:.75em;
-	border-width: thin;
+	border-width: 2px;
 	border-style: solid;
-	width: 100%;
 	margin: .5em;
 }
 
@@ -323,7 +327,6 @@ input {
 	font-size: 24px;
 	display: inline-block;
 	margin-right:auto;
-
 }
 
 .setting-value {
