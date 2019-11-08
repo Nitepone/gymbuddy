@@ -1,0 +1,34 @@
+<% include includes/header.ejs %>
+<% include includes/nav-header-norm.ejs %>
+<div class="page-content">
+	<div class="workout-title">Presets</div>
+	<div class="workout-exercise-todo">
+
+		<div class="todo-item preset-todo-item">
+			<div class="todo-header">
+				Monday Workout
+			</div>
+			<div class="todo-body">
+				<form method="post">
+					<input type="hidden" name="presetid" value="d34db33f"/>
+					<button name="delete" type="submit">Delete</button>
+					<button name="apply" type="submit">Apply</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="todo-item preset-todo-item">
+			<div class="todo-header">
+				Thursday Workout
+			</div>
+			<div class="todo-body">
+				<form method="post">
+					<input type="hidden" name="presetid" value="d34db33f"/>
+					<button name="delete" type="submit">Delete</button>
+					<button name="apply" type="submit">Apply</button>
+				</form>
+			</div>
+		</div>
+	<div>
+</div>
+<% include includes/footer.ejs %>
