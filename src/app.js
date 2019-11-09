@@ -30,6 +30,10 @@ app.get('/presets', function(req, res){
   res.render('presets.ejs');
 });
 
+app.get('/stats', function(req, res){
+  res.render('stats.ejs');
+});
+
 
 app.listen(3000, function(){
   console.log('Server listening on port 3000');
