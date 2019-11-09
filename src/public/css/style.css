@@ -38,7 +38,14 @@ a {
 	background: white;
 	padding: .75em;
 	margin: .75em;
-	border-radius:.25em;
+	border-radius: .25em;
+}
+
+.page-title {
+	font-size: 36px;
+	font-weight: bold;
+	display: table;
+	margin: auto;
 }
 
 .page-content {
@@ -49,8 +56,8 @@ a {
 
 .todo-item {
 	text-decoration: none;
-	margin-top:1em;
-	margin-bottom:2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 	/*
 	padding:.25em;
 	border-style: solid;
@@ -63,13 +70,13 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin-top:1em;
-	margin-bottom:2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 .todo-button {
 	margin: .5em;
-	border-radius:.5em;
+	border-radius: .5em;
 	padding: .5em;
 	display: inline-block;
 }
@@ -121,18 +128,6 @@ a {
  * 545f66
  */
 
-.home-day-selector {
-	font-size: 36px;
-	font-weight: bold;
-	display: table;
-	margin: auto;
-}
-
-.home-workout-todo {
-	padding-top:1em;
-	margin:auto;
-}
-
 .workout-todo-item {
 	color: #fff;
 	background: #829399;
@@ -153,16 +148,9 @@ a {
 
 /* /workout specific */
 
-.workout-title {
-	font-size: 36px;
-	font-weight: bold;
-	display: table;
+.todo-list {
+	padding-top: 1em;
 	margin: auto;
-}
-
-.workout-exercise-todo {
-	padding-top:1em;
-	margin:auto;
 }
 
 .exercise-todo-item {
@@ -186,18 +174,6 @@ a {
 
 
 /* /presets specific */
-
-.preset-title {
-	font-size: 36px;
-	font-weight: bold;
-	display: table;
-	margin: auto;
-}
-
-.preset-exercise-todo {
-	padding-top:1em;
-	margin:auto;
-}
 
 .preset-todo-item {
 	color: #fff;
@@ -258,22 +234,10 @@ a {
 
 /* /exercise specific */
 
-.exercise-title {
-	font-size: 36px;
-	font-weight: bold;
-	display: table;
-	margin: auto;
-}
-
 .attribute-todo-item {
 	color: #444;
 	background: lightblue;
 	border-color: navy;
-}
-
-.exercise-attribute-todo {
-	padding-top:1em;
-	margin:auto;
 }
 
 input {
@@ -310,10 +274,10 @@ input {
 
 .setting-item {
 	display: flex;
-	padding:.5em;
-	padding-left:1em;
-	padding-right:1em;
-	border-radius:.75em;
+	padding: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-radius: .75em;
 	border-width: 2px;
 	border-style: solid;
 	margin: .5em;
@@ -326,7 +290,7 @@ input {
 .setting-name {
 	font-size: 24px;
 	display: inline-block;
-	margin-right:auto;
+	margin-right: auto;
 }
 
 .setting-value {
