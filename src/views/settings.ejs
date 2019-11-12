@@ -1,6 +1,7 @@
 <% include includes/header.ejs %>
 <% include includes/nav-header-norm.ejs %>
 <div class="page-content">
+<!--
 	<div class="settings-title">General Settings</div>
 	<div class="settings-list">
 		<a href="#">
@@ -33,6 +34,7 @@
 		</div>
     </a>
 	</div>
+--!>
 	<div class="settings-title">Accessibility Settings</div>
 	<div class="settings-list">
 		<a href="#">
@@ -40,9 +42,14 @@
 			<div class="setting-name">
 				Color Theme
 			</div>
-			<div class="setting-value">
-				Normal
-			</div>
+			<select>
+				<option>Normal</option>
+				<option>Dark Theme</option>
+				<option>Protanomaly</option>
+				<option>Deuteranomaly</option>
+				<option>Tritanomaly</option>
+				<option>Monochromacy</option>
+			</select>
 		</div>
     </a>
 
@@ -51,9 +58,11 @@
 			<div class="setting-name">
 				Font Size
 			</div>
-			<div class="setting-value">
-				Normal
-			</div>
+			<select>
+				<option>Normal</option>
+				<option>Large</option>
+				<option>Extra Large</option>
+			</select>
 		</div>
 		</a>
 	</div>

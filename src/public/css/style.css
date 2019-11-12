@@ -317,10 +317,6 @@ input {
 	margin: .5em;
 }
 
-.setting-item:hover {
-	background-color: #00000010;
-}
-
 .setting-name {
 	font-size: 24px;
 	display: inline-block;
