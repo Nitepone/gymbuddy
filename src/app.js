@@ -34,7 +34,11 @@ app.get('/stats', function(req, res){
   res.render('stats.ejs');
 });
 
+app.get('/share', function(req, res){
+  res.render('share.ejs');
+});
 
 app.listen(3000, function(){
+  console.log("http://localhost:3000")
   console.log('Server listening on port 3000');
 });
