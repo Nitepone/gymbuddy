@@ -330,3 +330,14 @@ input {
 	display: inline-block;
 	width: 30%;
 }
+
+/* /schedule specific */
+
+.schedule-container {
+	width:500px;
+}
+
+.schedule-container img {
+	max-height: 100%;
+	max-width: 100%;
+}
