@@ -42,6 +42,10 @@ app.get('/schedule', function(req, res){
   res.render('schedule.ejs');
 });
 
+app.get('/addexercise', function(req, res){
+  res.render('addexercise.ejs');
+});
+
 app.listen(3000, function(){
   console.log("http://localhost:3000")
   console.log('Server listening on port 3000');
